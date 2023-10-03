@@ -19,5 +19,6 @@ export default defineConfig({
   ],
   output: "server",
   // Remove the line below if not deploying to Netlify
-  // adapter: netlify(),
+   adapter: netlify(),
+  //adapter: caprover()
 });
